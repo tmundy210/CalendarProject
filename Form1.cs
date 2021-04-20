@@ -48,9 +48,12 @@ namespace CalendarProject
             {
                 Console.WriteLine("Connecting to MySQL...");
                 conn.Open();
-                string sql = "SELECT * FROM teammmlevent";
+                string sql = "SELECT * FROM teammmlevent WHERE userNum = @currEmp";
                 MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@currEmp", currentEmployee.getID());
+                MySqlDataAdapter myAdapter = new MySqlDataAdapter(cmd);
                 MySqlDataReader myReader = cmd.ExecuteReader();
+               
                 while (myReader.Read())
                 {
                     Boolean tempMan = true;
