@@ -24,7 +24,7 @@ namespace CalendarProject
                 Console.WriteLine("Connecting to MySQL...");
                 conn.Open();
                 string sql = "SELECT * FROM teammmlemployee WHERE password=@myPASS";
-                    MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(sql, conn);
+                MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(sql, conn);
 
                 cmd.Parameters.AddWithValue("@myPASS", num);
                 MySqlDataReader myReader = cmd.ExecuteReader();
