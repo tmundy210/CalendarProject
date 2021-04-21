@@ -193,8 +193,8 @@ namespace CalendarProject
 
         private void buttonProcessPin_Click(object sender, EventArgs e) //process button!!
         {
-            // 0 means they are manager in managerID
-            //-1 means they are not manager 
+            // -1 means they are manager in managerID
+            // 0 means they are not manager 
             int pin = 0;
             if (label2.Text.Equals("Pin"))
             {
@@ -211,16 +211,24 @@ namespace CalendarProject
                 errorTableLayoutPanel.Visible = true;
                 tableLayoutPanel2.Visible = false;
                 errorLabel.Text = "You enter the wrong pin try again";
+                label2.Text = "Pin";
 
             }
-            if (currentEmployee.getManagerID() == 0)//is a manager
+            else if (currentEmployee.getManagerID() != 0)//is a manager 
             {
-                
+                managerTableLayoutPanel.Visible = true;
+                tableLayoutPanel2.Visible = false;
+                tableLayoutPanel1.Visible = true;
+                label2.Text = "Pin";
+
             }
             else
-            tableLayoutPanel2.Visible = false;
-            tableLayoutPanel1.Visible = true;
-            label2.Text = "Pin";
+            {
+                tableLayoutPanel2.Visible = false;
+                tableLayoutPanel1.Visible = true;
+                label2.Text = "Pin";
+            }
+            
 
         }
 
