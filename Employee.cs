@@ -12,7 +12,7 @@ namespace CalendarProject
     class Employee
     {
         int userID = 0;
-        int managerID = -1;
+        int managerID = 0;
 
         public Employee (int num)//password
         {

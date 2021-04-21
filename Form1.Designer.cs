@@ -213,6 +213,7 @@ namespace CalendarProject
             this.managerTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.managerTableLayoutPanel.Size = new System.Drawing.Size(457, 139);
             this.managerTableLayoutPanel.TabIndex = 2;
+            this.managerTableLayoutPanel.Visible = false;
             // 
             // addManagerEvent
             // 
@@ -345,11 +346,11 @@ namespace CalendarProject
             this.logIn67890tableLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logIn67890tableLayoutPanel.Name = "logIn67890tableLayoutPanel";
             this.logIn67890tableLayoutPanel.RowCount = 1;
-            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
+            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.logIn67890tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
             this.logIn67890tableLayoutPanel.Size = new System.Drawing.Size(466, 122);
             this.logIn67890tableLayoutPanel.TabIndex = 3;
             // 
@@ -482,11 +483,11 @@ namespace CalendarProject
             this.LogIn12345tableLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogIn12345tableLayoutPanel.Name = "LogIn12345tableLayoutPanel";
             this.LogIn12345tableLayoutPanel.RowCount = 1;
-            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 121F));
+            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.LogIn12345tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
             this.LogIn12345tableLayoutPanel.Size = new System.Drawing.Size(465, 122);
             this.LogIn12345tableLayoutPanel.TabIndex = 2;
             // 
@@ -585,7 +586,7 @@ namespace CalendarProject
             this.PintableLayoutPanelDeleteClear.Name = "PintableLayoutPanelDeleteClear";
             this.PintableLayoutPanelDeleteClear.RowCount = 1;
             this.PintableLayoutPanelDeleteClear.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.PintableLayoutPanelDeleteClear.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 96F));
+            this.PintableLayoutPanelDeleteClear.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 97F));
             this.PintableLayoutPanelDeleteClear.Size = new System.Drawing.Size(465, 97);
             this.PintableLayoutPanelDeleteClear.TabIndex = 4;
             // 
@@ -703,7 +704,7 @@ namespace CalendarProject
             this.viewEventTableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.viewEventTableLayoutPanel.ForeColor = System.Drawing.Color.Peru;
             this.viewEventTableLayoutPanel.Location = new System.Drawing.Point(3, 12);
-            this.viewEventTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEventTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4);
             this.viewEventTableLayoutPanel.Name = "viewEventTableLayoutPanel";
             this.viewEventTableLayoutPanel.RowCount = 3;
             this.viewEventTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -724,7 +725,7 @@ namespace CalendarProject
             this.viewEventListBox.FormattingEnabled = true;
             this.viewEventListBox.ItemHeight = 95;
             this.viewEventListBox.Location = new System.Drawing.Point(4, 106);
-            this.viewEventListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEventListBox.Margin = new System.Windows.Forms.Padding(4);
             this.viewEventListBox.Name = "viewEventListBox";
             this.viewEventListBox.Size = new System.Drawing.Size(941, 289);
             this.viewEventListBox.TabIndex = 1;
@@ -737,7 +738,7 @@ namespace CalendarProject
             this.viewEventSubmitButton.AutoSize = true;
             this.viewEventSubmitButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.viewEventSubmitButton.Location = new System.Drawing.Point(4, 412);
-            this.viewEventSubmitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEventSubmitButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewEventSubmitButton.Name = "viewEventSubmitButton";
             this.viewEventSubmitButton.Size = new System.Drawing.Size(751, 95);
             this.viewEventSubmitButton.TabIndex = 2;
@@ -768,7 +769,7 @@ namespace CalendarProject
             this.viewEventBackButton.AutoSize = true;
             this.viewEventBackButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.viewEventBackButton.Location = new System.Drawing.Point(763, 412);
-            this.viewEventBackButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEventBackButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewEventBackButton.Name = "viewEventBackButton";
             this.viewEventBackButton.Size = new System.Drawing.Size(182, 95);
             this.viewEventBackButton.TabIndex = 3;
@@ -792,7 +793,7 @@ namespace CalendarProject
             this.viewEvent2TableLayoutPanel.Controls.Add(this.viewEventLabelStart, 0, 2);
             this.viewEvent2TableLayoutPanel.Controls.Add(this.viewEventLabelDesc, 0, 1);
             this.viewEvent2TableLayoutPanel.Location = new System.Drawing.Point(3, 7);
-            this.viewEvent2TableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEvent2TableLayoutPanel.Margin = new System.Windows.Forms.Padding(4);
             this.viewEvent2TableLayoutPanel.Name = "viewEvent2TableLayoutPanel";
             this.viewEvent2TableLayoutPanel.RowCount = 5;
             this.viewEvent2TableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -828,7 +829,7 @@ namespace CalendarProject
             this.viewAnotherEventButton.BackColor = System.Drawing.Color.Turquoise;
             this.viewAnotherEventButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.viewAnotherEventButton.Location = new System.Drawing.Point(4, 416);
-            this.viewAnotherEventButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewAnotherEventButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewAnotherEventButton.Name = "viewAnotherEventButton";
             this.viewAnotherEventButton.Size = new System.Drawing.Size(466, 98);
             this.viewAnotherEventButton.TabIndex = 0;
@@ -845,7 +846,7 @@ namespace CalendarProject
             this.viewEventReturnMenuButton.BackColor = System.Drawing.Color.Turquoise;
             this.viewEventReturnMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.viewEventReturnMenuButton.Location = new System.Drawing.Point(478, 416);
-            this.viewEventReturnMenuButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewEventReturnMenuButton.Margin = new System.Windows.Forms.Padding(4);
             this.viewEventReturnMenuButton.Name = "viewEventReturnMenuButton";
             this.viewEventReturnMenuButton.Size = new System.Drawing.Size(467, 98);
             this.viewEventReturnMenuButton.TabIndex = 1;
@@ -905,10 +906,10 @@ namespace CalendarProject
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(967, 540);
             this.ControlBox = false;
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.viewEventTableLayoutPanel);
             this.Controls.Add(this.viewEvent2TableLayoutPanel);
             this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.errorTableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
